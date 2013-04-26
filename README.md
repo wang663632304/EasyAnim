@@ -1,8 +1,7 @@
 EasyAnim
 ========
 
-A less painful way of doing View animations in Android.
-(A subclass of AnimationSet)
+A less painful way of doing View animations in Android. EasyAnim is a subclass of `AnimationSet`
 
 Features
 --------------
