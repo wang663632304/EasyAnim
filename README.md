@@ -14,6 +14,7 @@ Note: In order for the animation features to work properly, EasyAnim should not 
 
 Usage Example
 --------------
+```Java
 View myView = ....
 EasyAnim anim = new EasyAnim(true, myView); 
 anim.setTranslate(30f, 30f);  
@@ -23,4 +24,5 @@ anim.setAlpha(.8f);
 anim.setAddToExistingTransform(true); 
 anim.finishAnimationSetup();    // Have to call this method before applying the animation
 myView.startAnimation(anim);
+```
 
