@@ -21,7 +21,7 @@ anim.setTranslate(30f, 30f);
 anim.setScale(1.5f, 1.5f);
 anim.setRotation(360f);
 anim.setAlpha(.8f);
-anim.setAddToExistingTransform(true); 
+anim.setAddToExistingTransform(true);   // When true, will add the new animation to any existing animations. For example, if we added this animation to itself, it would have a net translation of 60, 60
 anim.finishAnimationSetup();    // Have to call this method before applying the animation
 myView.startAnimation(anim);
 ```
